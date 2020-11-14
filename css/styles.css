@@ -1,0 +1,164 @@
+/* основной цвет #212121 */
+
+/* вторичный цвет #757575 */
+
+/* булый цвет #FFFFFF */
+
+/* черный цвет #000000 */
+
+/* акцент #2196F3 */
+
+/* адресс в футере rgba(255, 255, 255, 0.6) */
+
+/* бекграунд футера и героя #2F303A */
+
+/* вторичный бекграунд #F5F4FA */
+
+body {
+    background: #fff;
+    color: #212121;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* Header */
+.logo {
+    color: #2196F3;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+
+.logo span {
+    color: #000;
+}
+
+.site-nav .link {
+    color: #212121;
+}
+
+.site-nav-list {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.site-nav-list .link.current {
+    color: #2196F3;
+}
+
+.site-nav-list .link:hover,
+.site-nav-list .link:focus {
+    color: #2196F3;
+}
+
+
+.address-list .link {
+    color: #757575;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.address-list .link:hover,
+.address-list .link:focus {
+    color: #2196F3;
+}
+/* Hero */
+.hero {
+    background: #2F303A;;
+}
+.hero h1 {
+    color: #fff;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.hero-link {
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+/* Features */
+.features-list h3 {
+    color: #212121;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.features-list p {
+    color: #757575;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+/* Works */
+h2 {
+    color: #212121;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+/* Team */
+.team {
+    background: #F5F4FA;
+}
+.team-list h3 {
+    color: #212121;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.team-list p {
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+ /*Footer  */
+ .bottom {
+    background: #2F303A;
+ }
+ .bottom span {
+     color: #fff;
+ }
+ .address-list p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;    
+    letter-spacing: 0.03em;    
+    color: #FFFFFF;
+ }
+ .address-list .footer {
+    color: rgba(255, 255, 255, 0.6);
+}
+
