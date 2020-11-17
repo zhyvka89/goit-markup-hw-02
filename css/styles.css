@@ -20,10 +20,13 @@
     --accent-color: #2196F3;
     --background-footer: #2F303A;
     --secondary-background: #F5F4FA;
+    --white-color: #fff;
+    --black-color: #000;
+    --footer-address-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
-    background: #fff;
+    background: var(--white-color);
     color: var(--primary-text-color);
     font-family: 'Roboto', sans-serif;
 }
@@ -48,7 +51,7 @@ ul {
 }
 
 .logo span {
-    color: #000;
+    color: var(--black-color);
 }
 
 .site-nav .link {
@@ -62,10 +65,7 @@ ul {
     letter-spacing: 0.02em;
 }
 
-.site-nav-list .link.current {
-    color: var(--accent-color);
-}
-
+.site-nav-list .link.current,
 .site-nav-list .link:hover,
 .site-nav-list .link:focus {
     color: var(--accent-color);
@@ -90,7 +90,7 @@ ul {
     background: #2F303A;;
 }
 .hero-title {
-    color: #fff;
+    color: var(--white-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -99,7 +99,7 @@ ul {
     text-transform: uppercase;
 }
 .hero-link {
-    color: #fff;
+    color: var(--white-color);
     background: #2196F3;
     font-weight: 700;
     font-size: 16px;
@@ -154,23 +154,22 @@ ul {
     background: var(--background-footer);
  }
  .bottom span {
-     color: #fff;
+     color: var(--white-color);
  }
  .address-list p {
+    color: var(--white-color);
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;    
     letter-spacing: 0.03em;    
-    color: #FFFFFF;
  }
  .address-list .footer {
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--footer-address-color);
 }
 
 /* ПОРТФОЛИО */
 .link-button {
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
@@ -181,17 +180,34 @@ ul {
 .link-button:hover,
 .link-button:focus {
     background: var(--accent-color);
-    color: #fff;
+    color: var(--white-color);
 }
 
-.project-list h2 {
+/* .project-title {
+    color: var(--primary-text-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
 }
 
-.project-list p {
+.project-type {
+    color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+} */
+
+.project-item h2 {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.project-item p {
     color: var(--secondary-text-color);
     font-weight: 400;
     font-size: 16px;
