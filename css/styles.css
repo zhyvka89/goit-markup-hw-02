@@ -44,6 +44,13 @@ a {
   color: #434455;
 }
 
+.nav-item .link:hover,
+.nav-item .link:focus,
+.address-list .link:hover,
+.address-list .link:focus {
+  color: #404bbf;
+}
+
 .page-hero {
   background-color: #2e2f42;
   text-align: center;
@@ -67,6 +74,11 @@ a {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: #4d5ae5;
   color: #fff;
+  cursor: pointer;
+}
+
+.hero-btn:hover {
+  color: #404bbf;
 }
 
 .features-item h3,
