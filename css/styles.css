@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   background: #fff;
   color: #434455;
   font-size: 16px;
@@ -24,11 +24,11 @@ a {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 
 .page-logo span {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .nav-list {
@@ -39,8 +39,11 @@ a {
   color: #2e2f42;
 }
 
-.address-list .link {
+.address-header {
   font-style: normal;
+}
+
+.address-item .link {
   color: #434455;
 }
 
@@ -60,37 +63,36 @@ a {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  letter-spacing: 0.02em;
   color: #fff;
 }
 
 .hero-btn {
+  font-family: "Roboto", sans-serif;
   border: none;
-  border-radius: 4px;
-  width: 169px;
-  height: 56px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: #4d5ae5;
   color: #fff;
   cursor: pointer;
 }
 
+.hero-btn:hover,
 .hero-btn:hover {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 
-.features-item h3,
-.team-item h3,
-.portfolio-item h3 {
+.item-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
-.features-item p {
+.item-text {
+  font-size: 16px;
   line-height: 1.5;
 }
 
@@ -102,6 +104,8 @@ a {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
 }
@@ -118,9 +122,14 @@ a {
 }
 
 .page-footer .page-logo {
-  color: #f4f4fd;
+  color: #4d5ae5;
 }
 
-.page-footer p {
+.logo-text {
+  color: #f4f4fd
+}
+
+.footer-text {
+  line-height: 1.5;
   color: #f4f4fd;
 }
